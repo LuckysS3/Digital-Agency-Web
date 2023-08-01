@@ -1,8 +1,10 @@
 @charset "UFT-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@500;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
 @font-face{
-    font-family: "Eu";
-    src: url('');
+    font-family: 'prog';
+    src: url('../font/Pragmatica-ExtraLight.ttf');
 }
 
 *{
@@ -10,11 +12,27 @@
     padding: 0px;
 }
 
-body{
+html{
     width: 100vw;
     height: 100vh;
+    font-family: "prog", sans-serif;
+    font-size: 1.5em;
 }
 
 nav{
+    display: flex;
+    height: 4vh;
+    width: 93vw;
+    margin: 17px;
+    justify-content: space-between;
+}
 
+header{
+    margin: 17px;
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 1.2em;
+}
+
+main{
+    margin: 17px;
 }
