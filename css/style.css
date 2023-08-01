@@ -1,6 +1,9 @@
 @charset "UFT-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@500;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap');
+@font-face{
+    font-family: 'refolle';
+    src: url('../font/REFOLLE.ttf');
+}
 
 @font-face{
     font-family: 'prog';
@@ -13,7 +16,7 @@
 }
 
 html{
-    width: 100vw;
+    width: 96vw;
     height: 100vh;
     font-family: "prog", sans-serif;
     font-size: 1.5em;
@@ -21,18 +24,59 @@ html{
 
 nav{
     display: flex;
-    height: 4vh;
-    width: 93vw;
+    height: 5vh;
+    width: 87vw;
     margin: 17px;
     justify-content: space-between;
 }
 
 header{
-    margin: 17px;
-    font-family: 'Frank Ruhl Libre', serif;
-    font-size: 1.2em;
+    margin: auto;
+    width: 87vw;
+    height: 30vh;
+    margin-top: 40px;
+    margin-left: 27px;
+    font-family: 'refolle', serif;
+}
+
+.romando{
+    width: 100px;
 }
 
 main{
-    margin: 17px;
+    width: 87vw;
+    height: 100vh;
+    margin-top: 17px;
+    margin-left: 27px;
+}
+
+p{
+    margin-bottom: 35px;
+    color: #666666
+}
+
+.prin{
+    width: 98%;
+}
+
+.seta{
+    position: relative;
+    left: 65%;
+    width: 20%;
+    transform: translate(9%,-70%);
+}
+
+.btn{
+    color: white;
+    background-color: #6365EF;
+    width: 50vw;
+    height: 9vh;
+    border: none;
+    font-size: 0.9em;
+    margin-top: 12%;
+    margin-bottom: 11%;
+}
+
+.Uma{
+    color: #6365EF;
 }
