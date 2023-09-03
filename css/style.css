@@ -1,8 +1,16 @@
 @charset "UFT-8";
 
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
 @font-face{
     font-family: 'refolle';
     src: url('../font/REFOLLE.ttf');
+}
+
+@font-face{
+    font-family: 'Ipsum';
+    src: url('../font/IpsumSemi500Free-mL1LG.otf');
 }
 
 @font-face{
@@ -33,9 +41,10 @@ nav{
 header{
     margin: auto;
     width: 87vw;
-    height: 30vh;
+    height: 35vh;
     margin-top: 40px;
     margin-left: 27px;
+    margin-bottom: 10\vh;
     font-family: 'refolle', serif;
 }
 
@@ -79,4 +88,24 @@ p{
 
 .Uma{
     color: #6365EF;
+}
+
+article > h1{
+    font-family: "Ipsum", serif;
+    margin-bottom: 8vh;
+}
+
+.tecla{
+    width: 98%;
+}
+
+article > p{
+    margin-top: 5vh;
+}
+
+a{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: #6365EF;
+    font-weight:bold;
 }
