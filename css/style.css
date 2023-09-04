@@ -1,5 +1,6 @@
 @charset "UFT-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
@@ -49,6 +50,14 @@ header{
 
 .romando{
     width: 100px;
+}
+
+nav > p {
+    display: none;
+}
+
+nav > button{
+    display: none;
 }
 
 main{

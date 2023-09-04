@@ -1,5 +1,47 @@
 @charset "UFT-8";
 
 @media screen and (min-width: 768px) {
-    
+    .icon{
+        display: none;
+    }
+
+    .foto{
+        display: none;
+    }
+
+    .logo{
+        width: 10vw;
+        height: 6vh;
+    }
+
+    nav{
+        display: flex;
+        margin-bottom: 10vh;
+        margin-left: 6vw;
+        justify-content: space-between;
+        align-items: stretch;
+    }
+
+    div-nav{ 
+        display: flex;
+    }
+
+    nav > p {
+        display: inline;
+        margin-top: 1vh;
+        font-size: medium;
+        margin-right: 5vw;
+        font-family: 'Mulish', sans-serif;
+    }
+
+    nav > button{
+        text-align: center;
+        width: 10vw;
+        height: 6vh;
+        color: white;
+        border: none;
+        display: inline;
+        font-family: 'Mulish', sans-serif;
+        background-color: #6365EF;
+    }
 }
